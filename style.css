@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.tabs {
+    width: 1170px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tabs__button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    justify-content:left;
+}
+
+.tabs__button-first {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #ffff;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    width: 184px;
+    height: 40px;
+}
+
+
+.tabs__button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #ffff;
+    border: none;
+    width: 184px;
+    height: 40px;
+
+}
+
+.tabs__content {
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #C6CBCD;
+    box-sizing: border-box;
+}
+
+.content__text-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    width: 570px;
+    height: 124px;
+    margin-left: 100px;
+    text-align: left;
+    
+}
+.content__text-block {
+    width: 570px;
+    height: 210px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 100px;
+} 
+
+.tabs__content-image {
+    display: flex;
+    margin-left: 30px;
+}
+
+.content__download-button {
+    font-family: 'Open Sans', sans-serif;
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    color:#ffff;
+    border: none;
+    margin-left: 100px;
+}
+
+
+
+.awesome {
+    font-family: 'Raleway', sans-serif;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.awesome__title {
+    margin: 0;             
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.awesome__title-wrapper {
+    height: 150px;
+    display: flex;  /*стили выполняются по порядку!!!*/                  
+    align-items: center;
+    justify-content: center;
+}
+
+.awesome__line {
+    width: 170px;
+    border: 1px solid #EC7979; 
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.awesome__subtitle {
+    color: #86878B;
+    text-align: center; /* потому что не нужно вертикальное центрирование*/
+    margin-bottom: 110px;
+}
+
+.awesome__container {
+    display: flex; /*выравнивание в строку автоматическое если надо в колонку то flex-direction*/
+    justify-content: space-between;
+}
+
+.awesome__block {
+    width: 370px;
+    text-align: center;
+}
+
+.awesome__icon-wrapper {
+    width: 92px;
+    height: 92px;
+    display: flex;  /*стили выполняются по порядку!!!*/                  
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 78px;
+}
+
+.awesome__block-title {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 47px;
+}
+
