@@ -21,6 +21,7 @@
     border-bottom: none;
     width: 184px;
     height: 40px;
+    cursor: pointer;
 }
 
 
@@ -32,7 +33,6 @@
     border: none;
     width: 184px;
     height: 40px;
-
 }
 
 .tabs__content {
@@ -74,6 +74,7 @@
     color:#ffff;
     border: none;
     margin-left: 100px;
+    cursor: pointer;
 }
 
 
