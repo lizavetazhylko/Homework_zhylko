@@ -24,7 +24,6 @@
     cursor: pointer;
 }
 
-
 .tabs__button {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -53,6 +52,7 @@
     text-align: left;
     
 }
+
 .content__text-block {
     width: 570px;
     height: 210px;
@@ -76,8 +76,6 @@
     margin-left: 100px;
     cursor: pointer;
 }
-
-
 
 .awesome {
     font-family: 'Raleway', sans-serif;
