@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.tabs {
+    width: 1170px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tabs__button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    justify-content: left;
+}
+
+.tabs__button-first {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #ffff;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    width: 184px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.tabs__button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #ffff;
+    border: none;
+    width: 184px;
+    height: 40px;
+}
+
+.tabs__content {
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #C6CBCD;
+    box-sizing: border-box;
+}
+
+.content__text-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    width: 570px;
+    height: 124px;
+    margin-left: 100px;
+    text-align: left;
+    
+}
+
+.content__text-block {
+    width: 570px;
+    height: 210px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 100px;
+} 
+
+.tabs__content-image {
+    display: flex;
+    margin-left: 30px;
+}
+
+.content__download-button {
+    font-family: 'Open Sans', sans-serif;
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    color:#ffff;
+    border: none;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.awesome {
+    font-family: 'Raleway', sans-serif;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.awesome__title {
+    margin: 0;             
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.awesome__title-wrapper {
+    height: 150px;
+    display: flex;  /*стили выполняются по порядку!!!*/                  
+    align-items: center;
+    justify-content: center;
+}
+
+.awesome__line {
+    width: 170px;
+    border: 1px solid #EC7979; 
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.awesome__subtitle {
+    color: #86878B;
+    text-align: center; /* потому что не нужно вертикальное центрирование*/
+    margin-bottom: 110px;
+}
+
+.awesome__container {
+    display: flex; /*выравнивание в строку автоматическое если надо в колонку то flex-direction*/
+    justify-content: space-between;
+}
+
+.awesome__block {
+    width: 370px;
+    text-align: center;
+}
+
+.awesome__icon-wrapper {
+    width: 92px;
+    height: 92px;
+    display: flex;  /*стили выполняются по порядку!!!*/                  
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 78px;
+}
+
+.awesome__block-title {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 47px;
+}
+
+.price {
+    font-family: 'Raleway', sans-serif;
+    width: 1508px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+
+.price__title {
+    margin: 0;             
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.price__title-wrapper {
+    height: 150px;
+    display: flex;                    
+    align-items: center;
+    justify-content: center;
+}
+
+.price__line {
+    width: 170px;
+    border: 1px solid #EC7979; 
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.price__subtitle {
+    color: #86878B;
+    text-align: center; 
+    margin-bottom: 80px;
+}
+
+.price__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 170px;
+}
+
+.price__block {
+    width: 370px;
+    height: 510px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.price__block-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+    height: 60px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    margin: 0px;
+}
+
+.price__block-cost {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+    height: 100px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    margin: 0px;
+}
+
+.price__block-free {
+    height: 50px;
+    color: #fff;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    margin: 0px;
+}
+
+.price__block-list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.price__block-space {
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    margin: 0px;
+    list-style: none;
+}
+
+.price__block:hover {
+    transform: translateY(-20px);
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+
+.customers {
+    font-family: 'Raleway', sans-serif;
+    width: 1508px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.customers__title {
+    margin: 0;             
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.customers__title-wrapper {
+    height: 150px;
+    display: flex;                    
+    align-items: center;
+    justify-content: center;
+}
+
+.customers__line {
+    width: 170px;
+    border: 1px solid #EC7979; 
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.customers__subtitle {
+    color: #86878B;
+    text-align: center; 
+    margin-bottom: 80px;
+}
+
+.customers__container {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 170px;
+}
+
+.customers__block {
+    width: 370px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.customers__block-title-wrapper {
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: -15px;
+}
+
+.customers__polygon {
+    width: 30px;
+    height: 20px;
+    background: #E2E2E2;
+    transform: rotate(-45deg);
+    margin-bottom: 65px;
+    position: relative;
+    top: 0px; 
+    left: 70px;
+}
+
+.customers__block-title {
+    padding: 38px 20px;
+    color: #86878B;
+    font-weight: normal;
+}
+
+.customers__manager-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.customers__manager {
+    width: 270px;
+    text-align: left;
+}
+
+.customers__icon {
+    display: flex;
+    margin-right: 30px;
+}
