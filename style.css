@@ -319,3 +319,50 @@
     display: flex;
     margin-right: 30px;
 }
+
+.design {
+    font-family: 'Raleway', sans-serif;
+    width: 1510px;
+    height: 442px;
+    background:  rgba(0, 0, 0, 0.5) url(/Homework_zhylko/img/stylish\ image.png);
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.design__title {
+    margin: 0;             
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.design__title-wrapper {
+    height: 150px;
+    display: flex;                    
+    align-items: center;
+    justify-content: center;
+}
+
+.design__line {
+    width: 170px;
+    border: 1px solid #fff; 
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.design__subtitle {
+    color: #fff;
+    text-align: center; 
+    margin-bottom: 80px;
+}
+
+.design__download-button {
+    font-family: 'Open Sans', sans-serif;
+    width: 270px;
+    height: 58px;
+    color:#ffff;
+    border: 2px solid #FFFFFF;
+    background: none;
+    cursor: pointer;
+}
