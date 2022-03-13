@@ -9,7 +9,7 @@
 .tabs__button-wrapper {
     display: flex;
     justify-content: space-between;
-    justify-content:left;
+    justify-content: left;
 }
 
 .tabs__button-first {
@@ -214,11 +214,17 @@
     margin: 0px;
 }
 
+.price__block-list {
+    padding: 0px;
+    margin: 0px;
+}
+
 .price__block-space {
     height: 50px;
     background: #FFFFFF;
     border: 2px solid #F5F5F5;
     margin: 0px;
+    list-style: none;
 }
 
 .price__block:hover {
@@ -288,7 +294,8 @@
     transform: rotate(-45deg);
     margin-bottom: 65px;
     position: relative;
-    top: 0px; left: 70px;
+    top: 0px; 
+    left: 70px;
 }
 
 .customers__block-title {
@@ -305,7 +312,6 @@
 
 .customers__manager {
     width: 270px;
-    margin-left: 100px;
     text-align: left;
 }
 
