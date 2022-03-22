@@ -200,7 +200,7 @@
     font-size: 36px;
     line-height: 42px;
     color: #fff;
-    height: 100px;
+    height: 100px; /*убрать высоту и поставить паддинг 13 пикселей!!!*/
     background: #333333;
     border: 2px solid #F5F5F5;
     margin: 0px;
@@ -287,6 +287,10 @@
     margin-bottom: -15px;
 }
 
+.customers__icon-wrapper {
+    display: flex;
+}
+
 .customers__polygon {
     width: 30px;
     height: 20px;
@@ -305,7 +309,7 @@
 }
 
 .customers__manager-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* сделать картинку перед текстом в html и засунуть из в отдельный контейнер*/
     font-weight: 700;
     font-size: 24px;
 }
@@ -316,7 +320,8 @@
 }
 
 .customers__icon {
-    display: flex;
+    width: 70px;
+    height: 70px;
     margin-right: 30px;
 }
 
@@ -324,7 +329,7 @@
     font-family: 'Raleway', sans-serif;
     width: 1510px;
     height: 442px;
-    background:  rgba(0, 0, 0, 0.5) url(/Homework_zhylko/img/stylish\ image.png);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Homework_zhylko/img/stylish.png);
     margin: 0 auto;
     align-items: center;
     text-align: center;
