@@ -82,7 +82,7 @@
     color: #fff;
     border: 2px solid #fff;
     background: none;
-    width: 184px;
+    width: 230px;
     height: 40px;
     cursor: pointer;
 }
@@ -178,9 +178,17 @@
 }
 
 .tabs {
-    width: 1170px;
-    margin: 0 auto;
     font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs__width-container {
+    width: 1170px;
 }
 
 .tabs__button-wrapper {
@@ -212,35 +220,32 @@
 }
 
 .tabs__content {
-    width: 1170px;
     height: 500px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     border: 1px solid #C6CBCD;
     box-sizing: border-box;
+}
+
+.tabs__content-text-wrapper {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 100px;
 }
 
 .content__text-title {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    width: 570px;
-    height: 124px;
-    margin-left: 100px;
-    text-align: left;
-    
+    margin-bottom: 50px;
 }
 
 .content__text-block {
-    width: 570px;
-    height: 210px;
-    text-align: left;
-    justify-content: center;
-    margin-left: 100px;
-} 
-
-.tabs__content-image {
-    display: flex;
-    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .content__download-button {
@@ -250,14 +255,19 @@
     background-color: #EC7979;
     color:#ffff;
     border: none;
-    margin-left: 100px;
     cursor: pointer;
 }
 
 .awesome {
     font-family: 'Raleway', sans-serif;
-    width: 1170px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome-width-container {
+    width: 1170px;
 }
 
 .awesome__title {
@@ -292,7 +302,7 @@
 }
 
 .awesome__block {
-    width: 370px;
+    width: 30%;
     text-align: center;
 }
 
@@ -310,7 +320,12 @@
 
 .awesome__block-title {
     font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
     margin-bottom: 47px;
+}
+
+.awesome__block-sutitle {
+    font-size: 18px;
 }
 
 .price {
@@ -357,7 +372,7 @@
 .price__container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .price__block {
@@ -416,9 +431,16 @@
 
 .customers {
     font-family: 'Raleway', sans-serif;
-    width: 1508px;
+    width: 100%;
     height: 900px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers-width-container {
+width: 1170px;
 }
 
 .customers__title {
@@ -450,7 +472,6 @@
 .customers__container {
     display:flex;
     justify-content: space-between;
-    margin: 0 170px;
 }
 
 .customers__block {
@@ -458,6 +479,7 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     text-align: center;
+    margin-right: 30px;
 }
 
 .customers__block-title-wrapper {
@@ -509,12 +531,18 @@
 
 .design {
     font-family: 'Raleway', sans-serif;
-    width: 1510px;
+    width: 100%;
     height: 442px;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Homework_zhylko/img/stylish.png);
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.design__width-container {
+    width: 1170px;
 }
 
 .design__title {
@@ -546,7 +574,7 @@
 
 .design__download-button {
     font-family: 'Open Sans', sans-serif;
-    width: 270px;
+    width: 370px;
     height: 58px;
     color: #ffff;
     border: 2px solid #FFFFFF;
@@ -631,7 +659,7 @@
 
 .contacts__button {
     font-family: 'Open Sans', sans-serif;
-    width: 270px;
+    width: 370px;
     height: 58px;
     color: #ffff;
     border: 2px solid #EC7979;
@@ -668,4 +696,288 @@
     font-weight: 400;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .header__wrapper {
+        justify-content: space-evenly;
+    }
+
+    .header__wrapper {
+        width: 100%;
+    }
+
+    .modern {
+        height: 768px;
+    }
+    
+    .modern__axit {
+        width: 100%;
+    }
+
+    .modern__axit-content {
+        margin-right: 0px;
+        margin-left: 115px;
+    }
+
+    .modern__logo {
+        margin-bottom: 0px;
+    }
+    
+    .modern__title {
+        font-size: 36px;
+        margin: 0px;
+    }
+
+    .modern__subtitle {
+        font-size: 14px;
+    }
+
+    .modern__line {
+        width: 115px;
+    }
+    
+    .modern__button {
+        width: 180px;
+    }
+
+    .modern__axit-form-block {
+        width: 398px;
+        height: 450px;
+    }
+
+     #axit__password {
+        margin-bottom: 7px;
+    }
+
+    .links {
+        margin-bottom: 50px;
+    }
+
+    .tabs__width-container {
+        width: 100%;
+    }
+
+    .tabs__content {
+        height: 386px;
+    }
+
+    .tabs__button-wrapper {
+    }
+
+    .content__text-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .content__text-block {
+        font-size: 14px;
+    }
+
+    .content__download-button {
+        width: 230px;
+    }
+
+    .awesome-width-container {
+        width: 100%;
+    }
+
+    .awesome__title {
+        font-size: 24px;
+    }
+
+    .awesome__title-wrapper {
+        height: 120px;
+    }
+
+    .awesome__subtitle {
+        font-size: 14px;
+        margin-bottom: 65px;
+    }
+
+    .awesome__line {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+
+    .awesome__icon-wrapper {
+        width: 80px;
+        height: 80px;
+    }
+
+    .awesome__block-title {
+        font-size: 18px;
+    }
+
+    .awesome__block-subtitle {
+        font-size: 14px;
+    }
+
+    .price {
+        height: 770px;
+    }
+
+    .price__width-container {
+        width: 100%;
+    }
+    
+    .price__title {
+        font-size: 24px;
+    }
+
+    .price__title-wrapper {
+        height: 120px;
+    }
+
+    .price__subtitle {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .price__line {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+
+    .customers {
+        height: 770px;
+    }
+
+    .customers__block {
+        width: 30%;
+        margin: 0px;
+    }
+    
+    .customers__title {
+        font-size: 24px;
+    }
+
+    .customers__title-wrapper {
+        width: auto;
+        height: 120px;
+    }
+
+    .customers__manager {
+        width: auto;
+    }
+
+    .customers__subtitle {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+
+    .customers__line {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+
+    .customers__polygon {
+        width: 25px;
+        height: 20px;
+        left: 50px;
+        margin-bottom: 55px;
+    }
+
+    .customers__width-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customers__block-title {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .customers__block-title-wrapper {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customers__icon {
+        width: 63px;
+        height: 63px;
+    }
+
+    .customers__manager-title {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .customers__manager {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .design {
+        height: 358px;
+    }
+
+    .design__width-container {
+        width: 100%;
+    }
+
+    .design__title {
+        font-size: 24px;
+    }
+
+    .design__title-wrapper {
+        height: 120px;
+    }
+
+    .design__subtitle {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+
+    .design__line {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+
+    .design__download-button {
+        width: 318px;
+    }
+
+    .contacts__width-container {
+        width: 100%;
+    }
+
+    .contacts__form {
+        width: 100%;
+    }
+
+    .contacts__title {
+        font-size: 24px;
+    }
+
+    .contacts__title-wrapper {
+        height: 120px;
+    }
+
+    .contacts__subtitle {
+        font-size: 14px;
+        margin-bottom: 72px;
+    }
+
+    .contacts__line {
+        width: 142px;
+        margin-bottom: 32px;
+    }
+
+    .contacts__button {
+        width: 318px;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+    }
+
+    #icon {
+        font-size: 50px;
+    }
 }
