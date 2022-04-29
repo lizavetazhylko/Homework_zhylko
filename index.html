@@ -10,9 +10,7 @@
     <body>
         <header class="header">
             <div class="header__wrapper">
-                <div class="header__axit">
-                    <img class="header__axit-logo" src="./img/axit.png">
-                </div>
+                <img class="header__axit-logo" src="./img/axit.png">
                 <div class="header__link-wrapper">   
                     <a class="header__link" href="#features">Features</a>
                     <a class="header__link" href="#about">About</a>
@@ -40,7 +38,7 @@
                     </p>
                     <button class="modern__button">Download</button>
                 </div>
-                <div class="modern__axit-form">
+                <form action="" class="modern__axit-form">
                     <div class="modern__axit-form-block">
                         <div class="modern__axit-form-wrapper">
                             <span class="modern__trial">Try your</span>
@@ -52,7 +50,7 @@
                         </div>
                         <button class="modern__get-started">Get Started</button>
                     </div>
-                </div>
+                </form>
             </div>
         </section>
         <section class="links">
@@ -104,7 +102,7 @@
                         </div>
                         <button class="content__download-button"> Download </button>
                     </div>
-                    <img class="tabs__content-image" src="/Homework_zhylko/img/The statue of liberty.png">
+                    <img class="tabs__content-image" src="./img/The statue of liberty.png" alt=".">
                 </div>
             </div>
         </section>
@@ -232,64 +230,58 @@
                 </p>
                 <div class="customers__container">
                     <div class="customers__block">
-                        <div class="customers__block-title-wrapper">
-                            <p class="customers__block-title">
-                                Lorem ipsum dolor sit amet, 
-                                consectetur adipisicing elit. Doloribus 
-                                accusamus expedita repellat similique 
-                                odio aspernatur ex, architecto eaque 
-                                quo suscipit.
-                            </p>
-                        </div>
-                    <div class="customers__polygon"></div>    
-                    <div class="customers__icon-wrapper">  
-                        <img class="customers__icon" src="/Homework_zhylko/img/manager1.png" alt="">
-                        <div class="customers__manager">
-                            <p class="customers__manager-title">
-                                Davis Rhiel Madsen
-                            </p>
-                            <p>
-                                Manager
-                            </p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="customers__block">
-                        <div class="customers__block-title-wrapper">
-                            <p class="customers__block-title">
-                                Lorem ipsum dolor sit amet, 
-                                consectetur adipisicing elit. Doloribus 
-                                accusamus expedita repellat similique 
-                                odio aspernatur ex, architecto eaque 
-                                quo suscipit.
-                            </p>
-                        </div>
-                        <div class="customers__polygon"></div>
-                        <div class="customers__icon-wrapper"> 
-                            <img class="customers__icon" src="/Homework_zhylko/img/manager2.png" alt="">
+                        <p class="customers__block-title">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </p>
+                        <div class="customers__polygon"></div>    
+                        <div class="customers__icon-wrapper">  
+                            <img class="customers__icon" src="./img/manager1.png" alt="">
                             <div class="customers__manager">
                                 <p class="customers__manager-title">
-                                    Jaydon Rosser
+                                    Davis Rhiel Madsen
                                 </p>
                                 <p>
                                     Manager
                                 </p>
                             </div>
-                        </div>  
+                    </div>
                     </div>
                     <div class="customers__block">
-                        <div class="customers__block-title-wrapper">
-                            <p class="customers__block-title">
-                                Lorem ipsum dolor sit amet, 
-                                consectetur adipisicing elit. Doloribus 
-                                accusamus expedita repellat similique 
-                                odio aspernatur ex, architecto eaque 
-                                quo suscipit.
+                        <p class="customers__block-title">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
                             </p>
-                        </div>
+                            <div class="customers__polygon"></div>
+                            <div class="customers__icon-wrapper"> 
+                                <img class="customers__icon" src="./img/manager2.png" alt="">
+                                <div class="customers__manager">
+                                    <p class="customers__manager-title">
+                                        Jaydon Rosser
+                                    </p>
+                                    <p>
+                                        Manager
+                                    </p>
+                                </div>
+                            </div>  
+                    </div>
+                    <div class="customers__block">
+                        <p class="customers__block-title">
+                            Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </p>
                         <div class="customers__polygon"></div>
                         <div class="customers__icon-wrapper">
-                            <img class="customers__icon" src="/Homework_zhylko/img/manager3.png" alt="">
+                            <img class="customers__icon" src="./img/manager3.png" alt="">
                             <div class="customers__manager">
                                 <p class="customers__manager-title">
                                     Cooper Dorwart
@@ -330,29 +322,31 @@
                 <p class="contacts__subtitle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <div class="contacts__form-wrapper">
-                    <div class="contacts__form">
+                <form action="" class="contacts__form">
+                    <div class="contacts__form-wrapper">
                         <div class="contacts__form-email-wrapper"> 
                             <input type="text" id="name" placeholder="Name">
                             <input type="email" id="email" placeholder="Email">
                             <input type="password" id="password" placeholder="Password">
                         </div>
-                        <textarea class="contacts__form-message" id="message" placeholder="Message"></textarea>
+                        <div class="contacts__form-message-wrapper">
+                            <textarea type="textarea" class="contacts__form-message" id="message" placeholder="Message"></textarea>
+                        </div>
                     </div>
-                    <button class="contacts__button">Send Message</button>
-                </div>
+                    <button type="button" class="contacts__button">Send Message</button>
+                </form>
             </div>
         </section>
         <footer class="footer">
             <div class="footer__width-container">
                 <div class="footer__icons">
-                    <i class="fa fa-facebook fa-4x" id="icon" aria-hidden="true"></i>
-                    <i class="fa fa-twitter fa-4x" id="icon" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin-square fa-4x" id="icon" aria-hidden="true"></i>
-                    <i class="fa fa-pinterest fa-4x" id="icon" aria-hidden="true"></i>
-                    <i class="fa fa-instagram fa-4x" id="icon" aria-hidden="true"></i>
-                    <i class="fa fa-github fa-3x fa-4x" id="icon" aria-hidden="true"></i>
-                    <i class="fa fa-rss fa-4x" id="icon" aria-hidden="true"></i>
+                    <i class="fa fa-facebook fa-3x" id="footer__icon" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-3x" id="footer__icon" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square fa-3x" id="footer__icon" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest fa-3x" id="footer__icon" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-3x" id="footer__icon" aria-hidden="true"></i>
+                    <i class="fa fa-github fa-3x" id="footer__icon" aria-hidden="true"></i>
+                    <i class="fa fa-rss fa-3x" id="footer__icon" aria-hidden="true"></i>
                 </div>
                 <div class="footer__copyright">
                     © 2015 Axure Themes
