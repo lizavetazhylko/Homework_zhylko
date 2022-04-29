@@ -88,7 +88,7 @@
     border: 2px solid #fff;
     background: none;
     width: 230px;
-    height: 40px;
+    height: 58px;
     cursor: pointer;
 }
 .modern__axit-form {
@@ -109,6 +109,7 @@
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
+    font-weight: 700;
     color: #333333;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -117,6 +118,7 @@
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
+    font-weight: 700;
     color: #EC7979;
     text-transform: uppercase;
     margin-bottom: 50px;
@@ -133,6 +135,7 @@
     width: 100%;
     height: 75px;
     font-family: 'Open sans', 'sans serif';
+    font-size: 15px;
     color: #fff;
     border: none;
     border-bottom-left-radius: 10px;
@@ -144,7 +147,6 @@
     width: 100%;
     height: 140px;
     margin: auto;
-    margin-bottom: 100px;
     font-family: 'Raleway', sans-serif;
     background: #F8EFEF;
     display: flex;
@@ -186,7 +188,7 @@
     font-family: 'Raleway', sans-serif;
     width: 100%;
     margin: 0 auto;
-    margin: 0 auto;
+    padding: 99px 0px 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,8 +200,8 @@
 
 .tabs__button-wrapper {
     display: flex;
-    justify-content: space-between;
     justify-content: left;
+    margin-bottom: -2px;
 }
 
 .tabs__button-first {
@@ -208,20 +210,25 @@
     font-size: 14px;
     background-color: #ffff;
     border: 1px solid #C6CBCD;
-    border-bottom: none;
     width: 184px;
     height: 40px;
     cursor: pointer;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .tabs__button {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 14px;
+    border-bottom: 1px solid #C6CBCD;
     background-color: #ffff;
-    border: none;
     width: 184px;
     height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .tabs__content {
@@ -255,6 +262,7 @@
 
 .content__download-button {
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     width: 270px;
     height: 58px;
     background-color: #EC7979;
@@ -266,6 +274,7 @@
 .awesome {
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
+    padding-bottom: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -437,15 +446,14 @@
 .customers {
     font-family: 'Raleway', sans-serif;
     width: 100%;
-    height: 900px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 50px 0px 64px;
 }
 
-.customers-width-container {
-width: 1170px;
+.customers__width-container {
+    width: 1170px;
 }
 
 .customers__title {
@@ -484,16 +492,6 @@ width: 1170px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     text-align: center;
-    margin-right: 30px;
-}
-
-.customers__block-title-wrapper {
-    width: 370px;
-    height: 180px;
-    background: #E2E2E2;
-    border-radius: 10px;
-    justify-content: center;
-    margin-bottom: -15px;
 }
 
 .customers__icon-wrapper {
@@ -512,9 +510,15 @@ width: 1170px;
 }
 
 .customers__block-title {
-    padding: 38px 20px;
+    width: 310px;
+    height: 100px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    margin-bottom: -15px;
     color: #86878B;
     font-weight: normal;
+    margin-top: 0px;
+    padding: 40px 30px;
 }
 
 .customers__manager-title {
@@ -583,6 +587,7 @@ width: 1170px;
 
 .design__download-button {
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     width: 370px;
     height: 58px;
     color: #ffff;
@@ -598,6 +603,7 @@ width: 1170px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0px 50px;
 }
 
 .contacts__width-container {
@@ -630,6 +636,13 @@ width: 1170px;
 }
 
 .contacts__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contacts__form-wrapper {
     font-family: 'Open sans', sans-serif;
     font-weight: 100;
     color: #BDBDBD;
@@ -639,13 +652,12 @@ width: 1170px;
     margin-bottom: 50px;
 }
 
-.contacts__form-wrapper {
-    align-items: center;
-    text-align: center;
+.contacts__form-email-wrapper {
+    width: 567px;
 }
 
-.contacts__form-email-wrapper {
-    width: 570px;
+.contacts__form-message-wrapper {
+    width: 567px;
 }
 
 #name, #email, #password {
@@ -659,7 +671,7 @@ width: 1170px;
 
 #message {
     font-family: 'Open sans', sans-serif;
-    width: 570px;
+    width: 100%;
     height: 220px;
     border: none;
     border-bottom: 1px solid #BDBDBD;
@@ -668,6 +680,7 @@ width: 1170px;
 
 .contacts__button {
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     width: 370px;
     height: 58px;
     color: #ffff;
@@ -675,7 +688,6 @@ width: 1170px;
     background: #EC7979;
     cursor: pointer;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .footer {
@@ -700,6 +712,11 @@ width: 1170px;
     justify-content: space-around;
     margin-bottom: 30px;
 }
+
+#footer__icon {
+    color: #cccc;
+}
+
 .footer__copyright {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -845,10 +862,6 @@ width: 1170px;
         margin-bottom: 32px;
     }
 
-    .customers {
-        height: 770px;
-    }
-
     .customers__block {
         width: 30%;
         margin: 0px;
@@ -881,27 +894,19 @@ width: 1170px;
         width: 25px;
         height: 20px;
         left: 50px;
-        margin-bottom: 55px;
+        margin-bottom: 46px;
     }
 
     .customers__width-container {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
     .customers__block-title {
+        width: 257px;
+        height: 80px;
         font-weight: 400;
         font-size: 14px;
-    }
-
-    .customers__block-title-wrapper {
-        width: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 50px 30px;
     }
 
     .customers__icon {
@@ -975,6 +980,18 @@ width: 1170px;
         margin-bottom: 32px;
     }
 
+    .contacts__form-wrapper {
+        width: 100%;
+    }
+
+    .contacts__form-email-wrapper {
+        width: 50%;
+    }
+
+    .contacts__form-message-wrapper {
+        width: 45%;
+    }
+
     .contacts__button {
         width: 318px;
     }
@@ -983,7 +1000,7 @@ width: 1170px;
         font-size: 14px;
     }
 
-    #icon {
+    #footer__icon {
         font-size: 50px;
     }
 }
@@ -1290,13 +1307,12 @@ width: 1170px;
         justify-content: center;
     }
 
-    .customers__block-title-wrapper {
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    .customers__block-title {
+        width: 258px;
+        height: 80px;
+        font-size: 14px;
+        padding: 50px 15px;
+       
     }
 
     .customers__polygon {
@@ -1305,11 +1321,6 @@ width: 1170px;
         margin-bottom: 40px;
         margin-top: -15px;
         left: -70px
-    }
-
-    .customers__block-title {
-        font-size: 14px;
-        padding: 0px;
     }
 
     .customers__block:first-child {
@@ -1421,12 +1432,22 @@ width: 1170px;
         align-items: center;
     }
 
+    .contacts__form-wrapper {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .contacts__form-email-wrapper {
         width: 80%;
     }
 
-    #message {
+    .contacts__form-message-wrapper {
         width: 80%;
+    }
+
+    #message {
         height: 200px;
     }
 
@@ -1441,6 +1462,10 @@ width: 1170px;
 
     .footer__icons {
         width: 100%;
+    }
+
+    #footer__icon {
+        font-size: 30px;
     }
 
     .footer__copyright {
